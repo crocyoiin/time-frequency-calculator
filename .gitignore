@@ -2,7 +2,6 @@ bin/
 .gradle/
 .idea/
 lib/
-gradle/
 build/
 out/
 bin/
