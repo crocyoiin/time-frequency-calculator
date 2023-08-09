@@ -1,4 +1,4 @@
-package main.java.frequency.domain.calculator;
+package frequency.domain.calculator;
 
 public class Calculator {
     
