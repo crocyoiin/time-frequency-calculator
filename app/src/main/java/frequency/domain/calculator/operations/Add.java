@@ -1,5 +1,6 @@
 package frequency.domain.calculator.operations;
 
+import frequency.domain.calculator.Rectangular;
 import frequency.domain.calculator.Value;
 
 public class Add implements OperationNode {
@@ -13,9 +14,9 @@ public class Add implements OperationNode {
 
     @Override
     public Value evaluate() {
-        double resX;
-        double resY;
-        return null;
+        double resX = a.getX() + b.getX();
+        double resY = a.getY() + b.getY();
+        return Value.fromRect(new Rectangular(resX, resY));
     }
     
 }

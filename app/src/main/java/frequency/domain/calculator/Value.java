@@ -24,4 +24,12 @@ public class Value {
     public Rectangular getRectangular() {
         return rect;
     }
+
+    public double getX() {
+        return getRectangular().getX();
+    }
+
+    public double getY() {
+        return getRectangular().getY();
+    }
 }
